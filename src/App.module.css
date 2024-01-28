@@ -1,0 +1,75 @@
+h1 {
+  color: red;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.containerToDos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.input {
+  width: 500px;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 2px solid #7ba7ab;
+  border-radius: 15px;
+  outline: none;
+  color: black;
+}
+
+.button {
+  width: 120px;
+  height: 42px;
+  font-size: 20px;
+  background: #7ba7ab;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.sortButton {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 42px;
+  font-size: 20px;
+  background: #7ba7ab;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.sortButtonClicked {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 42px;
+  font-size: 20px;
+  background: red;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.findButton {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 42px;
+  font-size: 20px;
+  background: #7ba7ab;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  margin-top: 10px;
+  height: 42px;
+  font-size: 20px;
+  background: #7ba7ab;
+  border-radius: 15px;
+  cursor: pointer;
+}
